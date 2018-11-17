@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Komis", "Komis\Komis.csproj", "{ED8ADCF9-7CAB-426E-85F4-AD54DD074CDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED8ADCF9-7CAB-426E-85F4-AD54DD074CDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED8ADCF9-7CAB-426E-85F4-AD54DD074CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED8ADCF9-7CAB-426E-85F4-AD54DD074CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED8ADCF9-7CAB-426E-85F4-AD54DD074CDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F58DD24-A87B-4FC3-8CE0-76FD47AD75D2}
+	EndGlobalSection
+EndGlobal
