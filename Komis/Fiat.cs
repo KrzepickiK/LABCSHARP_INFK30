@@ -10,6 +10,6 @@ namespace Komis
         {
         }
 
-        public override string wyswietlMarke() => "Fiat";
+        public override string WyswietlMarke() => "Fiat";
     }
 }

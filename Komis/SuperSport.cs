@@ -10,6 +10,6 @@ namespace Komis
         {
         }
 
-        public override string wyswietlModel() => "Super Sport";
+        public override string WyswietlModel() => "Super Sport";
     }
 }

@@ -10,6 +10,6 @@ namespace Komis
         {
         }
 
-        public override string wyswietlModel() => "Panda";
+        public override string WyswietlModel() => "Panda";
     }
 }

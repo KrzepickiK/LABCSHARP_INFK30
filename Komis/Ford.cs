@@ -10,6 +10,6 @@ namespace Komis
         {
         }
 
-        public override string wyswietlMarke() => "Ford";
+        public override string WyswietlMarke() => "Ford";
     }
 }

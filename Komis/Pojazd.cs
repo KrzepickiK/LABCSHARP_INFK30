@@ -30,8 +30,8 @@ namespace Komis
             return cenaKoncowa;
         }
 
-        public abstract string wyswietlMarke();
-        public abstract string wyswietlModel();
-        public abstract string wyswietlTypPojazdu { get; }
+        public abstract string WyswietlMarke();
+        public abstract string WyswietlModel();
+        public abstract string wyswietlTypPojazdu();
     }
 }

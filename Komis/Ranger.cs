@@ -10,6 +10,6 @@ namespace Komis
         {
         }
 
-        public override string wyswietlModel() => "Ranger";
+        public override string WyswietlModel() => "Ranger";
     }
 }

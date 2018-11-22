@@ -10,6 +10,6 @@ namespace Komis
         {
         }
 
-        public override string wyswietlModel() => "Multipla";
+        public override string WyswietlModel() => "Multipla";
     }
 }

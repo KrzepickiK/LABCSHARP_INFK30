@@ -10,6 +10,6 @@ namespace Komis
         {
         }
 
-        public override string wyswietlMarke() => "Suzuki";
+        public override string WyswietlMarke() => "Suzuki";
     }
 }

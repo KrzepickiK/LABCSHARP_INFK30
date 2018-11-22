@@ -11,6 +11,6 @@ namespace Komis
 
         }
 
-        public override string wyswietlModel() => "Mustang";
+        public override string WyswietlModel() => "Mustang";
     }
 }
