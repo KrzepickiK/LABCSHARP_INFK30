@@ -12,6 +12,6 @@ namespace Komis
 
         }
 
-        public override string wyswietlTypPojazdu => "Motocykl";
+        public override string WyswietlTypPojazdu => "Motocykl";
     }
 }

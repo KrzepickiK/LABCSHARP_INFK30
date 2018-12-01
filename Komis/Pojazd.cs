@@ -6,19 +6,17 @@ namespace Komis
 {
     abstract class Pojazd
     {
-        private float fCenaZakupu;
-        private float fMarza;
         private int iRokProdukcji;
 
         protected Pojazd(float fCenaZakupu, float fMarza, int iRokProdukcji)
         {
-            this.fCenaZakupu = fCenaZakupu;
-            this.fMarza = fMarza;
+            this.CenaZakupu = fCenaZakupu;
+            this.Marza = fMarza;
             this.iRokProdukcji = iRokProdukcji;
         }
 
-        public float Marza { get => fMarza; }
-        public float CenaZakupu { get => fCenaZakupu; }
+        public float Marza { get; }
+        public float CenaZakupu { get; }
         public float RokProdukcji { get => iRokProdukcji; }
 
         public void WyswietlRok() {
@@ -32,6 +30,6 @@ namespace Komis
 
         public abstract string WyswietlMarke();
         public abstract string WyswietlModel();
-        public abstract string wyswietlTypPojazdu();
+        public abstract string WyswietlTypPojazdu { get;}
     }
 }
